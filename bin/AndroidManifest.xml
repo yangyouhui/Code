@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yyh.account"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="20"
+        android:targetSdkVersion="20" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
+        <activity
+            android:name="com.yyh.account.accountMain.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yyh.account.accountUsers.RegisterActivity">
+        </activity>
+        <activity
+            android:name="com.yyh.account.accountUsers.LoginActivity">
+        </activity>
+        <activity
+            android:name="com.yyh.account.accountUsers.EditPwdActivity">
+        </activity>
+        <activity
+            android:name="com.yyh.account.accountout.AddoutActivity">
+        </activity>
+        <activity
+            android:name="com.yyh.account.accountout.EditoutActivity">
+        </activity>
+        <activity
+            android:name="com.yyh.account.accountout.OutaccountActivity">
+        </activity>
+        <activity
+            android:name="com.yyh.account.flag.AddflagActivity">
+        </activity>
+        <activity
+            android:name="com.yyh.account.flag.EdltflagActivity">
+        </activity>
+        <activity
+            android:name="com.yyh.account.flag.FlagActivity">
+        </activity>
+        <activity
+            android:name="com.yyh.account.inaccount.AddinActivity">
+        </activity>
+        <activity
+            android:name="com.yyh.account.inaccount.EditinActivity">
+        </activity>
+        <activity
+            android:name="com.yyh.account.inaccount.InaccountActivity">
+        </activity>
+    </application>
+
+</manifest>
