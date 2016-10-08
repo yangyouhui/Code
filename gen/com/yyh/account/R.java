@@ -11,7 +11,15 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int bg=0x7f020000;
+        public static final int ic_launcher=0x7f020001;
+        public static final int inaccount=0x7f020002;
+    }
+    public static final class id {
+        public static final int lvshow=0x7f060000;
+        public static final int tvhandler=0x7f060002;
+        public static final int tvmoney=0x7f060001;
+        public static final int tvtime=0x7f060003;
     }
     public static final class layout {
         public static final int activity_addflag=0x7f030000;
@@ -27,6 +35,7 @@ public final class R {
         public static final int activity_main=0x7f03000a;
         public static final int activity_outaccount=0x7f03000b;
         public static final int activity_register=0x7f03000c;
+        public static final int item=0x7f03000d;
     }
     public static final class string {
         public static final int app_name=0x7f040000;
