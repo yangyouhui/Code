@@ -13,17 +13,17 @@ import android.widget.Toast;
 
 import com.yyh.account.R;
 import com.yyh.account.accountModel.InaccountModel;
-import com.yyh.account.tools.InccountAdapter;
+import com.yyh.account.tools.InaccountAdapter;
 
 public class InaccountActivity extends Activity {
 	private ListView lvshow;
-	private InccountAdapter adapter;
+	private InaccountAdapter adapter;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_inaccount);
 		lvshow=(ListView)findViewById(R.id.lvshow);
-        adapter = new InccountAdapter(this,loadData());
+        adapter = new InaccountAdapter(this,loadData());
         
         lvshow.setOnItemClickListener(new OnItemClickListener() {
 

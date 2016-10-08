@@ -48,7 +48,7 @@
 	        android:layout_height="36dp"
 	        android:layout_weight="1"
 	        android:gravity="center"
-	        android:text="来源"
+	        android:text="类别"
 	        android:textSize="18sp" 
 	        android:textStyle="bold"
 	        android:textColor="#000"/>

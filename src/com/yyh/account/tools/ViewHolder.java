@@ -4,12 +4,10 @@ import android.widget.TextView;
 
 public class ViewHolder {
 
-	//收入
+	//收入,支出
 	public TextView intvmoney;
-	public TextView intvhandler;
+	public TextView intvtype;
 	public TextView intvtime;
-	
-	//支出
 	
 	
 	//便签

@@ -2,6 +2,10 @@ package com.yyh.account.tools;
 
 import java.util.List;
 
+import com.yyh.account.R;
+import com.yyh.account.accountModel.InaccountModel;
+import com.yyh.account.accountModel.OutaccountModel;
+
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,15 +13,12 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.yyh.account.R;
-import com.yyh.account.accountModel.InaccountModel;
-
-public class InccountAdapter extends BaseAdapter {
+public class OutaccountAdapter extends BaseAdapter {
 
 	private LayoutInflater inflater;
-	private List<InaccountModel> Arraydata;
+	private List<OutaccountModel> Arraydata;
 	
-	public InccountAdapter(Context context,List<InaccountModel> Arraydata){
+	public OutaccountAdapter(Context context,List<OutaccountModel> Arraydata){
 		inflater = LayoutInflater.from(context);
 		this.Arraydata= Arraydata;
 	}
@@ -47,7 +48,7 @@ public class InccountAdapter extends BaseAdapter {
 			arg1 = inflater.inflate(R.layout.item,null);
 			holder = new ViewHolder();
 			holder.intvmoney= (TextView)arg1.findViewById(R.id.tvmoney);
-			holder.intvhandler=(TextView)arg1.findViewById(R.id.tvhandler);
+			holder.intvtype=(TextView)arg1.findViewById(R.id.tvtype);
 			holder.intvtime=(TextView)arg1.findViewById(R.id.tvtime);
 			arg1.setTag(holder);
 		}
@@ -55,9 +56,10 @@ public class InccountAdapter extends BaseAdapter {
 			holder = (ViewHolder)arg1.getTag();
 		}
 		holder.intvmoney.setText(""+Arraydata.get(arg0).getMoney());
-		holder.intvhandler.setText(Arraydata.get(arg0).getHandler());
+		holder.intvtype.setText(""+Arraydata.get(arg0).getType());
 		holder.intvtime.setText(Arraydata.get(arg0).getTime());
 		return arg1;
 	}
+
 
 }

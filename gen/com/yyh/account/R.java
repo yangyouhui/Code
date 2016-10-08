@@ -33,9 +33,9 @@ public final class R {
         public static final int imageButton4=0x7f060008;
         public static final int imageButton5=0x7f06000a;
         public static final int lvshow=0x7f060000;
-        public static final int tvhandler=0x7f06000d;
         public static final int tvmoney=0x7f06000c;
         public static final int tvtime=0x7f06000e;
+        public static final int tvtype=0x7f06000d;
         public static final int txtVBianQ=0x7f060007;
         public static final int txtVSheZ=0x7f060009;
         public static final int txtVShouR=0x7f060005;
