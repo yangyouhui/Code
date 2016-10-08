@@ -1,12 +1,131 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="${relativePackage}.${activityClass}" >
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+   style="@style/LinearLayoutone"
+    android:background="@drawable/background"> 
+   <LinearLayout 
+    style="@style/LinearLayoutTwo"
+    android:background="@drawable/bottomback"
+    > 
+   <ImageView
+            android:id="@+id/imageButt"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/zhic"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+             />
+    <TextView 
+        android:text="@string/titlef" 
+        android:textSize="15pt" 
+        android:textColor="#607d8b"
+        android:textStyle="bold"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_weight="1" 
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:typeface="monospace"
+        />       
+    </LinearLayout>   
+    <LinearLayout 
+       android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" 
+    > 
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" 
+        >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        <ImageView
+            android:id="@+id/imageButton1"
+            style="@style/Imagestyle"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/zhic"
+             />
+        <TextView
+            android:id="@+id/txtVZHC"
+            style="@style/WenB"
+            android:text="@string/txtZhiC" />
+     <ImageView
+            android:id="@+id/imageButton2"
+            style="@style/Imagestyle"
+            android:background="@drawable/shour" 
+            />
+     <TextView
+             android:id="@+id/txtVShouR"
+            style="@style/WenB"
+            android:text="@string/txtShouR" />
+      <ImageView
+            android:id="@+id/imageButton3"
+            style="@style/Imagestyle"
+             android:background="@drawable/bianq"
+              />
+      <TextView
+            android:id="@+id/txtVBianQ"
+            style="@style/WenB"
+            android:text="@string/txtbianq" />
+       <ImageView
+            android:id="@+id/imageButton4"
+            style="@style/Imagestyle"
+            android:background="@drawable/shez"
+             />
+       <TextView
+            android:id="@+id/txtVSheZ"
+             style="@style/WenB"
+            android:text="@string/txtshez" />
+    </LinearLayout>
 
-</RelativeLayout>
+    <LinearLayout
+        android:layout_width="159dp"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_marginTop="70dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/Biaot" 
+            android:textSize="12pt"
+            android:textColor="#101010"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/txtBianq" 
+            android:layout_marginTop="10dp"
+            android:textColor="#101010"
+            />
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/Times" 
+            android:layout_marginTop="80dp"
+            android:textColor="#101010"
+            />
+        <ImageView
+            style="@style/Imagestyle"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/tuic" 
+            android:id="@+id/imageButton5"
+            />
+
+        <TextView
+            android:id="@+id/txtVTuiC"
+            style="@style/WenB"
+            android:text="@string/txtTuiC"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+ 
+    </LinearLayout>   
+    
+</LinearLayout> 
