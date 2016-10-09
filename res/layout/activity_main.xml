@@ -16,7 +16,7 @@
              />
     <TextView 
         android:text="@string/titlef" 
-        android:textSize="15pt" 
+        android:textSize="18pt" 
         android:textColor="#607d8b"
         android:textStyle="bold"
         android:layout_width="fill_parent" 
@@ -26,7 +26,11 @@
         android:layout_marginLeft="20dp"
         android:typeface="monospace"
         />       
-    </LinearLayout>   
+    </LinearLayout> 
+    <View 
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="@android:color/holo_blue_light"/>  
     <LinearLayout 
        android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -34,13 +38,13 @@
         android:gravity="center_horizontal"
         android:orientation="horizontal" 
     > 
+
     <LinearLayout
-        android:layout_width="240dp"
-        android:layout_height="fill_parent"
-        android:layout_weight="1"
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0dp"
         android:gravity="center_horizontal"
-        android:orientation="vertical" 
-        >
+        android:orientation="vertical" >
 
         <ImageView
             android:id="@+id/imageButton1"
@@ -85,9 +89,10 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="159dp"
+        android:layout_width="fill_parent"
         android:layout_height="match_parent"
         android:gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
         android:orientation="vertical" >
 
         <TextView
@@ -106,6 +111,7 @@
             android:text="@string/txtBianq" 
             android:layout_marginTop="10dp"
             android:textColor="#101010"
+            android:textSize="18sp"
             />
        <TextView
             android:layout_width="wrap_content"
@@ -113,14 +119,15 @@
             android:gravity="center_horizontal"
             android:text="@string/Times" 
             android:layout_marginTop="80dp"
+            android:textSize="18sp"
             android:textColor="#101010"
             />
-        <ImageView
-            style="@style/Imagestyle"
-            android:layout_marginTop="50dp"
-            android:background="@drawable/tuic" 
-            android:id="@+id/imageButton5"
-            />
+
+       <ImageView
+           android:id="@+id/imageButton5"
+           style="@style/Imagestyle"
+           android:layout_marginTop="80dp"
+           android:background="@drawable/tuic" />
 
         <TextView
             android:id="@+id/txtVTuiC"

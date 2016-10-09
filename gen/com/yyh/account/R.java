@@ -13,34 +13,41 @@ public final class R {
     public static final class drawable {
         public static final int background=0x7f020000;
         public static final int backtc=0x7f020001;
-        public static final int bg=0x7f020002;
-        public static final int bianq=0x7f020003;
-        public static final int bottomback=0x7f020004;
-        public static final int ic_launcher=0x7f020005;
-        public static final int inaccount=0x7f020006;
-        public static final int outaccount=0x7f020007;
-        public static final int shez=0x7f020008;
-        public static final int shour=0x7f020009;
-        public static final int tub=0x7f02000a;
-        public static final int tuic=0x7f02000b;
-        public static final int zjbianq=0x7f02000c;
+        public static final int bavktwo=0x7f020002;
+        public static final int bg=0x7f020003;
+        public static final int bianq=0x7f020004;
+        public static final int bottomback=0x7f020005;
+        public static final int ic_launcher=0x7f020006;
+        public static final int inaccount=0x7f020007;
+        public static final int outaccount=0x7f020008;
+        public static final int shez=0x7f020009;
+        public static final int shour=0x7f02000a;
+        public static final int tub=0x7f02000b;
+        public static final int tuic=0x7f02000c;
+        public static final int zjbianq=0x7f02000d;
     }
     public static final class id {
-        public static final int imageButt=0x7f060001;
-        public static final int imageButton1=0x7f060002;
-        public static final int imageButton2=0x7f060004;
-        public static final int imageButton3=0x7f060006;
-        public static final int imageButton4=0x7f060008;
-        public static final int imageButton5=0x7f06000a;
-        public static final int lvshow=0x7f060000;
-        public static final int tvmoney=0x7f06000c;
-        public static final int tvtime=0x7f06000e;
-        public static final int tvtype=0x7f06000d;
-        public static final int txtVBianQ=0x7f060007;
-        public static final int txtVSheZ=0x7f060009;
-        public static final int txtVShouR=0x7f060005;
-        public static final int txtVTuiC=0x7f06000b;
-        public static final int txtVZHC=0x7f060003;
+        public static final int imageButt=0x7f060000;
+        public static final int imageButton1=0x7f060008;
+        public static final int imageButton2=0x7f06000a;
+        public static final int imageButton3=0x7f06000c;
+        public static final int imageButton4=0x7f06000e;
+        public static final int imageButton5=0x7f060010;
+        public static final int imageView1=0x7f060001;
+        public static final int imageView2=0x7f060003;
+        public static final int imageView3=0x7f060006;
+        public static final int lvshow=0x7f060007;
+        public static final int textView1=0x7f060002;
+        public static final int textView2=0x7f060005;
+        public static final int textView3=0x7f060004;
+        public static final int tvmoney=0x7f060012;
+        public static final int tvtime=0x7f060014;
+        public static final int tvtype=0x7f060013;
+        public static final int txtVBianQ=0x7f06000d;
+        public static final int txtVSheZ=0x7f06000f;
+        public static final int txtVShouR=0x7f06000b;
+        public static final int txtVTuiC=0x7f060011;
+        public static final int txtVZHC=0x7f060009;
     }
     public static final class layout {
         public static final int activity_addflag=0x7f030000;
@@ -113,6 +120,9 @@ public final class R {
         /**  主页面布局 
          */
         public static final int LinearLayoutone=0x7f050002;
+        /**  Activity的透明、半透明效果的设置transparent 
+         */
+        public static final int Transparent=0x7f050006;
         public static final int WenB=0x7f050005;
     }
 }

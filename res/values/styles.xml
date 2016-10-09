@@ -30,16 +30,28 @@
     </style>
     
     <style name="Imagestyle">
-        <item name="android:layout_width" >60dp</item>
-        <item name="android:layout_height" >60dp</item>
+        <item name="android:layout_width" >70dp</item>
+        <item name="android:layout_height" >70dp</item>
         <item name="android:layout_marginTop" >10dp</item>
         <item name="android:adjustViewBounds" >true</item>
     </style>
     <style name="WenB">
+        <item name="android:textSize" >18sp</item>
         <item name="android:textColor" >#101010</item>
         <item name="android:layout_width" >108dp</item>
         <item name="android:layout_height" >wrap_content</item>
         <item name="android:gravity" >center_horizontal</item>
         <item name="android:layout_marginTop" >10dp</item>
     </style>
+    <!-- Activity的透明、半透明效果的设置transparent -->
+    <style name="Transparent">  
+    <item name="android:windowBackground">
+       <color name="transparent_background">#e0000000</color>  
+    </item>  
+    <item name="android:windowNoTitle">true</item>  
+    <item name="android:windowIsTranslucent">true</item>    
+    <item name="android:windowAnimationStyle">
+         @+android:style/Animation.Translucent
+   </item>  
+  </style>
 </resources>
